@@ -32,11 +32,16 @@ function updadeSoftSkills(profileData){
 }
 
 function updateHardSkills(profileData){
-    const hardSkills = document.getElementById('profile-skills-HardSkills')
+    const hardSkills = document.getElementById('profile-skills-hardSkills')
 
    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `
     <li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>
     `).join('')
+}
+
+function updateLanguages(profileData){
+    const updateLanguages = document.getElementById("profile-languages")
+    updateLanguages.innerHTML = profileData.languages.map(language =>`<li>${language}</li>`).join('')
 }
 
 
@@ -47,4 +52,5 @@ function updateHardSkills(profileData){
     updateProfileInfo(profileData)
     updadeSoftSkills(profileData)
     updateHardSkills(profileData)
+    updateLanguages(profileData)
 })()
