@@ -1,12 +1,9 @@
 {
-  "nome": "Marcos Vieira Czepurko",
-  "titulo": "Electronics technician in Diebold-Nixdorf",
-  "localidade": {
-    "cidade": "São Paulo",
-    "estado": "São Paulo",
-    "pais": "Brasil"
-  },
-  "telefone": "(11) 97688-8960",
+  "name": "Marcos Vieira Czepurko",
+  "job": "Electronics technician in Diebold-Nixdorf",
+  "photo": "https://avatars.githubusercontent.com/u/97926089?v=4",
+  "location": "São Paulo - SP",
+  "phone": "(11) 97688-8960",
   "email": "czepurko81@gmail.com",
   "skills": {
     "hardSkills": [
