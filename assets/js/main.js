@@ -26,7 +26,7 @@ email.href = `mailto:${profileData.email}`
 }
 
 function updadeSoftSkills(profileData){
-    const softSkills = document.getElementById('profile-skills.softSkills')
+    const softSkills = document.getElementById('profile-skills-softSkills')
 
    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
