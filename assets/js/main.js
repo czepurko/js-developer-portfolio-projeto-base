@@ -57,8 +57,7 @@ function updatePortfolio(profileData) {
             <h3 ${project.github ? 'class="github"' : ""} >${project.name}</h3>
             <a href="${project.url}" target="_blank">${project.name}</a>
          </li>`;
-    })
-    .join("");
+    }).join("");
 }
 
 function updateProfessionalExperience(profileData) {
@@ -71,8 +70,7 @@ function updateProfessionalExperience(profileData) {
             <p>
             ${experience.description}
             </p>
-        </li>
-    `;
+        </li>`
   }).join("");
 }
 
