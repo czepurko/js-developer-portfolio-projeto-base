@@ -121,15 +121,22 @@
       "github":"true"
     }
   ],
-  "experiencias": [
+  "professionalExperience": [
     {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
-      "periodo": {
-        "inicio": "03/2021",
-        "fim": "Atualmente"
-      }
+      "name": "developer / personal projects",
+      "period":"Jan 2024 / current",
+      "description": "Desenvolvimento de sites com React, aplicando responsividade e boas práticas de design. Consumo de API. Integração com GitHub para versionamento e hospedagem de projetos. Criação de portfólio pessoal para exibir projetos, habilidades e trajetória como desenvolvedor. Aplicação de conceitos de UX/UI."
+    },
+    {
+      "name": "Electronics technician / Diebold-Nixdorf",
+      "period":"Jan 2009 / current",
+      "description": "Analista de Logs de ATM com as ferramentas Flight Recorder, FCC Flight Control Center e Splunk. Treinamento de novos colaboradores e treinamento de clientes para operar os terminais de auto atendimento."
+    },
+    {
+      "name": " trainee Electronics technician / BCP Telecomunicações",
+      "period":"Jan-2001 / Dez-2002",
+      "description": "Analise e substituição de componentes defeituosos, como telas, baterias, câmeras e conectores. Atualização de sistemas operacionais, removeção de vírus, e resolver falhas no funcionamento do sistema."
     }
+
   ]
 }
