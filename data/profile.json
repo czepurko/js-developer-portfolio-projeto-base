@@ -106,14 +106,19 @@
   ],
   "portfolio": [
     {
-      "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+      "name": "Projeto jogo de cartas Yu-Gi-Oh com JavaScript",
+      "url": "https://github.com/czepurko/js-yugioh-assets-main",
+      "git": "true"
     },
     {
-      "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-      "certificado": "https://www.dio.me/certificate/9A5090FC"
+      "name": "Projeto em aula na DIO para a criação de um Pokedex",
+      "url": "https://github.com/czepurko/pokedex-atual",
+      "git": "true"
+    },
+    {
+      "name":"Este projeto é uma aplicação web simples para agendamento de consultas",
+      "url":"https://github.com/czepurko/Agendamento-de-Consultas",
+      "git":"true"
     }
   ],
   "experiencias": [
