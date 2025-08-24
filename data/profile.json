@@ -108,17 +108,17 @@
     {
       "name": "Projeto jogo de cartas Yu-Gi-Oh com JavaScript",
       "url": "https://github.com/czepurko/js-yugioh-assets-main",
-      "git": "true"
+      "github": "true"
     },
     {
       "name": "Projeto em aula na DIO para a criação de um Pokedex",
       "url": "https://github.com/czepurko/pokedex-atual",
-      "git": "true"
+      "github": "true"
     },
     {
       "name":"Este projeto é uma aplicação web simples para agendamento de consultas",
       "url":"https://github.com/czepurko/Agendamento-de-Consultas",
-      "git":"true"
+      "github":"true"
     }
   ],
   "experiencias": [

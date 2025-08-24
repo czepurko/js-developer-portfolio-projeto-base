@@ -25,7 +25,7 @@ email.href = `mailto:${profileData.email}`
 
 }
 
-function updadeSoftSkills(profileData){
+function updateSoftSkills(profileData){
     const softSkills = document.getElementById('profile-skills-softSkills')
 
    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
@@ -44,13 +44,26 @@ function updateLanguages(profileData){
     updateLanguages.innerHTML = profileData.languages.map(language =>`<li>${language}</li>`).join('')
 }
 
+function updatePortfolio(profileData){
+    const portfolio = document.getElementById("profile-portfolio")
+    portfolio.innerHTML = profileData.portfolio.map(project=>{
+        return `
+         <li>
+            <h3 ${project.github ?'class="github"':""} >${project.name}</h3>
+            <a href="${project.url}" target="_blank">${project.name}</a>
+         </li>`
+    }).join("")
+}
+
 
 
 
 (async ()=>{
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
-    updadeSoftSkills(profileData)
+    updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
+    updatePortfolio(profileData)
+
 })()
